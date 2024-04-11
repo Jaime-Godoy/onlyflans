@@ -27,7 +27,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 DEBUG =  True if os.getenv('DEBUG')=='True' else False
 #DEBUG = os.environ['DEBUG'] siempre queda en true
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['*']
+CSRF_TRUSTED_ORIGINS = ['https://localhost:8000']
 
 
 # Application definition
