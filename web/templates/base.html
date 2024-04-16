@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,13 +20,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href= {% url "index" %}>Index</a>
+                <a class="nav-link active" aria-current="page" href= {% url "index" %}>Inicio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href={% url "about" %}>about</a>
+                <a class="nav-link active" aria-current="page" href={% url "welcome" %}>Bienvenido</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href={% url "welcome" %}>welcome</a>
+                <a class="nav-link active" aria-current="page" href={% url "about" %}>Acerca</a>
               </li>
             </ul>
           </div>
@@ -34,23 +35,22 @@
     {% endblock %}
     
     {% block 'header' %}
-    {% load static %}
-    <div style="background: red;">
-            <img src="{% static 'logo2.png' %}">
-        </div>
+    <div class="text-center"style="background: red;">
+      <img height='120px' src="{% static 'logo2.png' %}">
+    </div>
     {% endblock %}
 
     
 
     {% block 'contenido' %}
-    <div style="background: white;">
+    <div class="text-center" style="background: white;">
         contenido
     </div>
     {% endblock %}
 
     {% block 'footer' %}
-    <div style="background: green;">
-        Creado por Jaime Godoy
+    <div class="text-center" style="background: green;">
+        Desarrollado por Jaime Godoy Desafío Latam
     </div>
     {% endblock %}
     
