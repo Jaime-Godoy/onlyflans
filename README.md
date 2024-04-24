@@ -40,6 +40,25 @@
 ![9-Django-admin-contactform](https://github.com/Jaime-Godoy/onlyflans/assets/129312134/80661080-6071-4d94-8a3d-cc097861d48b)
 <em>Django administration - ContactForm</em>
 
+## Hito 4
+![1-Inicio](https://github.com/Jaime-Godoy/onlyflans/assets/129312134/ccfaaec3-492d-438e-bc30-64642938cac5)
+<em>Página de Inicio</em>
+![2-Iniciar-sesion](https://github.com/Jaime-Godoy/onlyflans/assets/129312134/d62fa965-3d49-43c5-b2a5-ab7ea8506264)
+<em>Página inicio de sesión</em>
+![3-Redireccion-inicio-sesion](https://github.com/Jaime-Godoy/onlyflans/assets/129312134/7676ab73-e15a-48f0-8c1d-dd23de671403)
+<em>Redireccion del inicio de sesión (Inicio)</em>
+![4-Redireccion-cerrar-sesion](https://github.com/Jaime-Godoy/onlyflans/assets/129312134/1aa1fa11-88e7-4128-b778-eeebe347e067)
+<em>Redireccion del cierre de sesión</em>
+![5-usuarios-creados-django-admin](https://github.com/Jaime-Godoy/onlyflans/assets/129312134/3a552902-4611-4d7a-9aea-bc4e16ba4a0f)
+<em>Usuarios creados en el panel de administracion de Django</em>
+![6-usuario1](https://github.com/Jaime-Godoy/onlyflans/assets/129312134/dfedbf6b-86e7-4df2-b1c2-bddd96885564)
+<em>Inicio con el usuario1 logueado</em>
+![7-usuario2](https://github.com/Jaime-Godoy/onlyflans/assets/129312134/1ee32aea-0545-4c85-890d-156bd4aecccc)
+<em>Inicio con el usuario2 logueado</em>
+![8-usuario3](https://github.com/Jaime-Godoy/onlyflans/assets/129312134/5dbdc7b7-37e0-4d4e-8f81-4ae5fe67f208)
+<em>Inicio con el usuario3 logueado</em>
+
+
 ## Funcionalidades extra
 
 En nuestra aplicación, hemos agregado funcionalidad personalizada para mostrar una lista de productos (ademàs de su detalle en el botón "Detalle") en tarjetas (cards) con un diseño específico. Decidimos personalizar el diseño de las tarjetas para mejorar la experiencia del usuario y cumplir con los requisitos de diseño de nuestra aplicación.
