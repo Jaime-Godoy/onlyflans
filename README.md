@@ -39,3 +39,32 @@
 <em>Success</em>
 ![9-Django-admin-contactform](https://github.com/Jaime-Godoy/onlyflans/assets/129312134/80661080-6071-4d94-8a3d-cc097861d48b)
 <em>Django administration - ContactForm</em>
+
+## Funcionalidades extra
+
+En nuestra aplicación, hemos agregado funcionalidad personalizada para mostrar una lista de productos (ademàs de su detalle en el botón "Detalle") en tarjetas (cards) con un diseño específico. Decidimos personalizar el diseño de las tarjetas para mejorar la experiencia del usuario y cumplir con los requisitos de diseño de nuestra aplicación.
+
+La funcionalidad personalizada que agregamos nos permite mostrar cada producto en una tarjeta con una imagen, un título y una descripción, junto con un enlace para ver más detalles sobre ese producto. Este diseño nos permite presentar la información de manera clara y atractiva para los usuarios.
+
+Personalizamos el diseño de las tarjetas de la siguiente manera:
+
+- **Altura fija de las tarjetas:** Establecimos una altura fija para todas las tarjetas para garantizar una apariencia uniforme en la lista de productos. Esto permite que los usuarios naveguen fácilmente por la lista sin que las tarjetas cambien de tamaño según su contenido.
+
+- **Imagen rectangular en las tarjetas:** Ajustamos el tamaño de las imágenes en las tarjetas para que tengan un formato rectangular con una dimensión específica de 260px de ancho y 200px de alto. Esto asegura que todas las imágenes se muestren de manera consistente y que ocupen un espacio adecuado en la tarjeta.
+
+- **Centrado horizontal de las tarjetas:** Utilizamos Bootstrap para centrar horizontalmente las tarjetas dentro de una fila, lo que mejora la presentación visual de la lista de productos en la página. Esto proporciona una apariencia más ordenada y atractiva para los usuarios.
+
+## CRUD
+
+Para la funcionalidad CRUD (Crear, Leer, Actualizar, Eliminar), hemos agregado una serie de características personalizadas para mejorar la gestión de los flanes en nuestra aplicación. Aquí está nuestra explicación:
+
+- **Creación de flanes:** Implementamos un formulario personalizado para permitir a los usuarios crear nuevos flanes en nuestra aplicación. Esto se logró mediante el uso de un formulario de Django (`FlanForm`) que se adapta a nuestro modelo de datos y permite a los usuarios ingresar información como el nombre, la descripción y si el flan es privado o no.
+
+- **Lectura de flanes:** Utilizamos vistas personalizadas para mostrar una lista de flanes en diferentes páginas de nuestra aplicación. Esto permite a los usuarios ver una lista de flanes disponibles y acceder a detalles específicos de cada flan cuando lo deseen.
+
+- **Actualización de flanes:** Implementamos una vista para permitir a los usuarios actualizar la información de un flan existente. Esto se logra mediante el uso de formularios pre-populados con los datos actuales del flan, lo que facilita la modificación de la información del flan.
+
+- **Eliminación de flanes:** Implementamos una funcionalidad para permitir a los usuarios eliminar flanes de nuestra aplicación. Esto se logra mediante el uso de una vista de confirmación de eliminación que solicita al usuario que confirme su acción antes de eliminar permanentemente el flan.
+
+En cuanto al diseño del CRUD, personalizamos la presentación de los formularios y las vistas para que se ajusten al estilo visual de nuestra aplicación y proporcionar una experiencia coherente para el usuario. Utilizamos Bootstrap y CSS personalizado para diseñar formularios y vistas que sean intuitivos y fáciles de usar.
+
