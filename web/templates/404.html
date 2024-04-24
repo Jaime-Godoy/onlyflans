@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block 'title' %}
+Error 404 - Página no encontrada
+{% endblock %}
+{% block 'content' %}
+    <h1>Error 404 - Página no encontrada</h1>
+    <p>Lo sentimos, la página que estás buscando no se encuentra.</p>
+    <a href="{% url 'index' %}">Volver al Index</a><br>
+
+{% endblock %}
+

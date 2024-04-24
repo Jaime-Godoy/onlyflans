@@ -10,6 +10,7 @@ class Flan(models.Model):
     image_url = models.URLField()
     slug= models.SlugField(unique=True, blank=True)
     is_private = models.BooleanField(default=False)
+    price_clp = models.DecimalField(max_digits=10, decimal_places=0)
 
     def save (self, *args, **kwargs):
         if not self.slug:

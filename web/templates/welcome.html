@@ -1,16 +1,15 @@
 {% extends 'base.html' %}
 
-{% block 'contenido' %}
-    <h1>Bienvenido Cliente (Variable_Nombre)</h1>
-    {% comment " hay que crear una variable para el saludo" %}{% endcomment %} 
-    <div class="row">
+{% block 'content' %}
+    <h1>Bienvenido: {{ user.username }}</h1>
+    <div class="row justify-content-center">
         {% for flan in flanes%}
-            <div class="card" style="width: 18rem;">
-                <img src="{{flan.image_url}}" class="card-img-top" alt="...">
+            <div class="card">
+                <img src="{{flan.image_url}}" class="card-img-top">
                 <div class="card-body">
-                <h5 class="card-title">{{flan.name}}</h5>
-                <p class="card-text">{{flan.description}}</p>
-                <a href="#" class="btn btn-primary">Comprar</a>
+                    <h5 class="card-title">{{flan.name}}</h5>
+                    <p class="card-text">{{flan.description}}</p>
+                    <a href={% url 'flan_detail' flan.id %} class="btn btn-primary">Detalle</a>
                 </div>
             </div>
           {% endfor %}

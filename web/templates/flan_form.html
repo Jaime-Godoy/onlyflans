@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block 'content' %}
+<h2>Flan Form</h2>
+<form method="post">
+    {% csrf_token %}
+    <div class="details justify-content-center">
+        {{form.}}
+        <div class="row">
+            <div class="col-md-6">
+                Nombre:
+            </div>        
+            <div class="col-md-6">
+                {{ form.name }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                Descripcion:
+
+            </div>        
+            <div class="col-md-6">
+                {{ form.description }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                Precio: 
+            </div>        
+            <div class="col-md-6">
+                {{ form.price_clp }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                URL de la Imagen:
+            </div>        
+            <div class="col-md-6">
+                {{ form.image_url }}
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                ¿Es privado?
+            </div>        
+            <div class="col-md-6">
+                {{ form.is_private }}
+            </div>
+        </div>
+    </div>  
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+{% endblock %}

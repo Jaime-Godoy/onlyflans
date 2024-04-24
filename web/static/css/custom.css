@@ -1,0 +1,33 @@
+.details{
+    width: 500px;
+    padding: 10px;
+}
+.detail-img{
+    width: 260px;  
+    height: 200px;
+}
+
+/* Estilos para la tarjeta */
+.card {
+    width: 18rem;
+    border-width: 0px;
+}
+
+.card-body{
+    height: 200px;
+}
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 60px;
+}
+.card-text{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+/* Estilos para la imagen */
+.card-img-top {
+    width: 260px;  
+    height: 200px; 
+    object-fit: cover; /* Ajustar la imagen para cubrir el tamaño especificado */
+}
