@@ -1,7 +1,11 @@
 asgiref==3.8.1
+<<<<<<< HEAD
 backports.zoneinfo==0.2.1
 Django==4.2
 python-dotenv==1.0.1
+=======
+Django==4.2
+>>>>>>> 093ff05bef9de21185a976efb8f3b059f9f33c3d
 sqlparse==0.4.4
 typing_extensions==4.11.0
 tzdata==2024.1
